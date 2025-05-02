@@ -1,0 +1,24 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="1200" height="630" fill="url(#paint0_linear)" />
+  
+  <!-- Logo/Brand text -->
+  <text x="120" y="215" font-family="Arial, sans-serif" font-weight="bold" font-size="72" fill="white">KANTO PROJECTS</text>
+  
+  <!-- Tagline -->
+  <text x="120" y="300" font-family="Arial, sans-serif" font-size="36" fill="white">Mobile & Web App Development</text>
+  
+  <!-- Decorative elements -->
+  <rect x="120" y="330" width="200" height="6" rx="3" fill="#2563EB" />
+  
+  <!-- Bottom tagline -->
+  <text x="120" y="450" font-family="Arial, sans-serif" font-size="28" fill="white">Creating thoughtfully designed apps that solve real problems</text>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111827" />
+      <stop offset="1" stop-color="#1F2937" />
+    </linearGradient>
+  </defs>
+</svg> 
