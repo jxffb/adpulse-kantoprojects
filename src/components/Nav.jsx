@@ -42,6 +42,13 @@ export default function Nav() {
           >
             Contact
           </a>
+          <a
+            href="/privacy"
+            className="text-gray-800 dark:text-gray-200 hover:text-black dark:hover:text-white transition-colors duration-200"
+            aria-label="Privacy Policy"
+          >
+            Privacy
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -109,6 +116,18 @@ export default function Nav() {
             onClick={() => setIsMenuOpen(false)}
           >
             Contact
+          </a>
+          <a
+            href="/privacy"
+            className={`block px-4 py-3 rounded-lg font-medium text-gray-800 dark:text-gray-200 hover:bg-gray-100/50 dark:hover:bg-gray-800/50 transition-all duration-200 ${
+              isMenuOpen
+                ? 'opacity-100 translate-y-0 delay-250'
+                : 'opacity-0 -translate-y-2'
+            }`}
+            onClick={() => setIsMenuOpen(false)}
+            aria-label="Privacy Policy"
+          >
+            Privacy
           </a>
         </div>
       </div>

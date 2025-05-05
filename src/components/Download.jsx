@@ -2,7 +2,6 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import ScrollReveal from './ScrollReveal'
 import { AppleLogo } from '@phosphor-icons/react'
-import { Link } from 'react-router-dom'
 
 export default function Download() {
   return (
@@ -32,8 +31,8 @@ export default function Download() {
                   
                   <div className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
                     <div className="flex justify-center md:justify-start gap-6">
-                      <Link to="/privacy" className="text-blue-500 hover:underline">Privacy Policy</Link>
-                      <Link to="/terms" className="text-blue-500 hover:underline">Terms of Use</Link>
+                      <a href="/privacy" className="text-blue-500 hover:underline">Privacy Policy</a>
+                      <a href="/terms" className="text-blue-500 hover:underline">Terms of Use</a>
                     </div>
                   </div>
                 </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 import { AppleLogo } from '@phosphor-icons/react'
-import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -19,20 +18,20 @@ export default function Footer() {
               <AppleLogo size={16} weight="light" />
               <span className="sm:inline">Download</span>
             </a>
-            <Link 
-              to="/privacy" 
+            <a 
+              href="/privacy" 
               className="text-sm text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors duration-200 flex items-center gap-1"
               aria-label="Privacy Policy"
             >
               <span className="sm:inline">Privacy Policy</span>
-            </Link>
-            <Link 
-              to="/terms" 
+            </a>
+            <a 
+              href="/terms" 
               className="text-sm text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors duration-200 flex items-center gap-1"
               aria-label="Terms of Service"
             >
               <span className="sm:inline">Terms of Service</span>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
